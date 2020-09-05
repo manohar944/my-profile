@@ -1,0 +1,675 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	.homebody{
+		background-color: #C9F3FA;
+	}
+	.heading{
+		display: flex;
+		flex-direction: row;
+		width: 96%;
+		border:2px solid black;
+
+		margin:1%;
+		background-color: #E7FF9B;
+		padding: 1%;
+
+
+	}
+	.title{
+		width: 20%;
+		text-align: left;
+
+	}
+	.title1{
+		width: 80%;
+	
+		text-shadow: 3px 1px 3px white;
+		text-align: right;
+		
+	}
+	.title img{
+		width: 100%;
+		border: 2px solid white;
+		border-radius: 60%;
+		height: 100%;	}
+	.information{
+		display: flex;
+		flex-direction: row;
+		width: 96%;
+		height: 20%;
+		margin:1%;
+		background-color: black;
+		padding: 1%;
+		color: red;
+		
+	}
+	.contact{
+		width: 18%;	
+		padding: 1%;
+	}
+	.contact1{
+		width:15%;
+		padding: 1%;
+	}
+	.inf{
+		text-decoration: none;
+		font-size: 18px;
+		text-align: center;
+		color: white;
+
+		
+	}
+	.inf:hover{
+		color: black;
+		background-color: yellow;
+	}
+	.scroll{
+		
+		background-color:yellow;
+		font-size: 20px;
+		
+	}
+	.image{
+		width: 15%;
+		height: 18%;
+
+		margin: 1%;
+
+	}
+	.img{
+		width: 5%;
+		height: 6%;
+		padding: 1%;
+		margin: 1%;
+		border:2px solid blue;
+
+	}
+	.images{
+		background-color: #76F37E ;
+	}
+	.manohar{
+		display: flex;
+		flex-direction: row;
+		width: 96%;
+		text-align: center;
+		font-style: bold;
+		margin:1%;
+		background-color:slateblue;
+		padding: 1%;
+		flex-wrap: wrap;
+		justify-content: space-around;
+
+
+	}
+	.more{
+		width: 27%;
+		padding: 1%;
+		margin: 1%;
+	
+		background-color: #F4F68A;
+		border:3px solid black;
+		border-radius: 30PX;	
+	}
+	.more img{
+		width: 100%;
+		
+		border-radius: 30px;
+	}
+	.more:hover{
+			color:white;
+			background-color:black;
+		}
+	
+	
+	.inf1{
+		text-decoration: none;
+		font-size: 20px;
+		text-align: center;
+		border-radius: 20px;
+		color: #000FF9 ;
+	}
+
+	button{
+		
+		background-color:black ;
+	}
+	.inf1:hover{
+		color:black ;
+		background-color: yellow;
+	}
+	button:hover{
+		color:black;
+		background-color: yellow ;
+	}
+	
+	.cimage{
+		width: 25%;
+		height: 100%;
+
+	}
+	.certificatebody{
+		background-image: url("https://media.istockphoto.com/photos/brown-wood-texture-dark-wooden-abstract-background-picture-id1137996207?k=6&m=1137996207&s=612x612&w=0&h=Eli8yvjTkBpkkT7QZj_hd2wbdKojeNHcxmo209SN1MM=");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.cexplain{
+		color: white;
+		background-color: black;
+	}
+	
+	.chead{
+		background-color: yellow;
+		background-size: 100%;
+	}
+
+	.interbody{
+		background-image: url("https://files.123freevectors.com/wp-content/original/111534-light-color-blurred-background-vector.jpg");
+		background-repeat:no-repeat;
+		background-size: cover;
+	 	background-attachment: fixed;
+	 	background-opacity:1%;
+	 }
+	.incollege{
+		text-align: center;
+		
+	}
+	.inimage{
+		height: 20%;
+		width: 20%;
+	}
+	.inimagehead{
+		background-color: green;
+		
+	}
+	
+	.inter{
+		color: yellow;
+		background-color: black;
+		margin-left: 12%;
+		margin-right: 10%;
+		border-radius: 30px;
+		text-align: center;
+	}
+	.interlink{
+		text-decoration: none;
+		font-size: 15px;
+		text-align: center;
+		color: yellow ;
+	}
+	
+	
+		.interhead{
+			
+			background-color: yellow;
+			text-align: center;
+		}
+	
+	.contactbody{
+		background-image: url("https://media.gettyimages.com/photos/abstract-blurred-simple-beige-and-tan-color-background-with-white-picture-id1046544350?b=1&k=6&m=1046544350&s=612x612&w=0&h=5kAswdpGgEGo3YYXskkPvU09FhcPQBw6vDbhj3PnW_Y=");
+		background-repeat:no-repeat;
+		background-size: cover;
+	 	background-attachment: fixed;
+	}
+	.conphno{
+		font-size: 20px;
+	
+	}
+	.material-icons{
+		color:blue;
+	}
+	.confb{
+		text-decoration: none;
+		font-size: 25px;
+	}
+	.contacthead{
+		display: flex;
+		flex-direction:row;
+		border:2px solid black;
+
+		width: 96%;
+		height: 20%;
+		margin:1%;
+		background-color:#BDF208 ;
+		padding: 1%;
+	}
+	.conicon{
+		width: 23%;
+		text-align: left;
+	}
+	.confollow{
+		height: 5%;
+		width: 10%;
+	}
+	.conhead{
+		height: 2%;
+		width: 3%;
+	}
+	.contactheading{
+		color: green;
+		
+		margin-right: 60%;
+		text-align: center;
+	}
+	.contactphno{
+		background-color:#E0F0A8 ;
+		
+	}
+
+	.aboutbody{
+			background-image: url("https://wallpaperset.com/w/full/c/5/9/545591.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.about{
+			color:yellow;
+			background-color: black;
+			margin-right:40%;
+			border-radius: 30px;
+			padding: 1% 0% 1% 2%;
+
+	
+	    }
+	
+	    .abouthead{
+			color:orange;
+			text-align: center;
+			background-color: black;
+		}
+		.sscbody{
+		background-image: url("https://files.123freevectors.com/wp-content/original/111534-light-color-blurred-background-vector.jpg");
+		background-repeat:no-repeat;
+		background-size: cover;
+	 	background-attachment: fixed;
+	 	background-opacity: 3%;
+	}
+	.sschead{
+		color: yellow;
+		background-color: black;
+		margin-left: 15%;
+		margin-right: 15%;
+		border-radius: 30px;
+		text-align: center;
+	}
+
+	
+	button{
+		
+		background-color:black ;
+	}
+		.ssc{
+			background-color:yellow ;
+			text-align: center;
+		}
+		.image10{
+
+
+		height: 20%;
+		width: 20%;
+	}
+	.image10 img{
+		height: 18%;
+	}
+	.images10th{
+		background-color: green;
+	}
+	.school{
+		height: 40%;
+		width: 40%;
+	}
+	.rheading{
+			text-align: center;
+			background-color: yellow;
+		}
+		.resumebody{
+			background-color: #E5F8F7;
+			margin: 50px;
+			padding: 5px;
+
+		}
+		.rhead{
+			display: flex;
+			flex-direction: row;
+			border:none;
+			margin: 1%;
+			width: 96%;
+			height: 20%;
+			padding: 1%;
+			
+			border:2px solid gray;
+
+		}
+		.resume1{
+			width: 20%;
+			
+		}
+		.resume2{
+			width: 80%;
+			text-align:center;
+		}.resume3{
+			width: 10%;
+			
+		}
+		.resume1 img,.resume3 img{
+			width: 100%;
+			height: 85%;
+			
+			
+
+		}.resumeh3{
+		color:white;
+		background-color: black;
+	}
+	.resumespan{
+		margin-left:10px;
+
+	}
+	.table{
+		    	flex-direction: column;
+		    	display: flex;
+		    	margin: 1%;
+		    	width: 97%;
+		    	width: 96%;
+		    }
+		    .table1{
+		    	width: 100%;
+		    }
+		 table,th,td{
+				border:1px solid black;
+				text-align: center;	
+
+			}
+			table{
+				border: 2px solid black;
+				 width: 100%;
+			}
+			.resumep1{
+			text-align: right;
+			margin-right: 100px;
+		}
+		.resumep2{
+			text-align: left;
+			margin-left: 100px;
+		}
+
+
+	.footerhead{
+		display: flex;
+		flex-direction: row;
+		margin: 1%;
+		padding: 1%;
+		width: 96%;
+		background-color: #A1A2A1;
+		color: white;
+		border:2px solid yellow;
+		border-radius: 30px;
+	}
+	.footer{
+		width: 50%;
+		align-items: center;
+	}
+	.footer img{
+		width: 100%;
+
+	}
+	.footer:hover{
+		background-color: yellow;
+		color: black;
+		padding-right: 3%;
+		padding-left: 3%;
+		border-radius: 20px;
+	}
+	u{
+		text-align: center;
+		
+		color: brown;
+	}
+	p{
+		font-size: 18px; 
+		font-style: bold;
+	}
+
+	@media only screen and (min-width: 300px) and (max-width: 767px){
+	
+		.heading{
+			flex-direction:column;
+			text-align: center;
+			padding: 1%;
+
+		}
+		.title{
+				width: 96%;
+				padding: 1%;
+				text-align: center;
+				
+			}
+			.title img{
+				width: 96%
+				padding:1%;	
+			}
+
+			.title1{
+				width: 55%;
+				padding: 1%;
+				
+			}
+			.title1{
+				text-align: center;
+			}
+			.information{
+			flex-direction:column;
+			text-align: center;
+			padding: 1%;
+		    }
+		    .contact{
+		width: 96%;	
+		padding: 2%;
+		text-align: center;
+	}
+	.contact1{
+		width:96%;
+		padding: 2%;
+		text-align: center;
+	}
+		     .contacthead{
+			flex-direction:column;
+			text-align: center;
+			padding: 1%;
+			border:2px solid black;
+
+		}
+		.cicon{
+				width: 96%;
+				padding: 2%;
+				
+				
+			}
+			.confollow{
+		height: 15%;
+		width: 30%;
+		
+	}
+	.conhead{
+		height: 9%;
+		width: 13%;
+		text-align: center;
+	}
+	.confb{
+		text-align: center;
+		}
+		.material-icons{
+			text-align: center;
+		}
+
+		    .inf{
+		    	border:1px solid pink;
+		    	border-radius: 10%;
+		    }
+		    .image{
+		    	height: 100%;
+		    }
+		    .scroll{
+		    	width: 96%;
+		    	padding: 2%;
+		    }
+		    .manohar{
+		    	flex-direction: column;
+
+
+		    }
+		    .more{
+		    	width: 93%;
+		    	padding: 2%;
+		    }
+		    .more img{
+		    	width: 98%;
+		    	padding: 2%;
+		    	border-radius: 30px;
+		    }
+		    .contacthead{
+			flex-direction:column;
+			text-align: center;
+			padding: 1%;
+			border:2px solid black;
+
+		}
+		.cicon{
+				width: 96%;
+				padding: 2%;
+				text-align: center;
+				
+			}
+			.table{
+		    	flex-direction: column;
+		    	overflow: scroll;
+		    	scroll-behavior: alternate;
+		    	height: 200px;
+		    	width: 100%;
+		    	
+
+		    }
+		    .table1{
+		    	width: 100%;
+
+		    }
+		    table,td,th{
+		    	width: 100%;
+		    	
+		    }
+		    ul{
+		    	width: 98%;
+		    	padding-left: 1%;
+		    }
+
+
+
+		    .rhead{
+				flex-direction: column;
+				text-align: center;
+				border:2px solid gray;
+			}
+			.resume1{
+				width: 98%;
+				padding: 2%;
+				text-align: center;
+				
+			}
+			.resume1 img{
+				width: 98%
+				padding:2%;
+				
+			}
+
+			.resume2{
+	   			width: 98%;
+				padding: 2%;
+				
+			}
+			.resume2{
+				text-align: center;
+    		}
+    		.resume3{
+    			width: 98%;
+    			padding: 2%;
+    			text-align: center;
+    		}
+    		.resume3 img{
+    			width: 98%;
+    			padding: 2%;
+    		} 
+    		.footerhead{
+			flex-direction: column;
+			align-items: center;
+			border-radius: 30px;
+		}
+		.footer{
+			width: 94%;padding: 2%;
+			padding-left: 10%;
+			padding-right: 3%;
+
+		}
+		u{
+			text-align: center;
+			width: 98%;
+		}
+		.about{
+			padding: 1%;
+		}
+		.aboutp{
+			padding: 0% 2% 0% 0%;
+		}
+		}
+
+
+		    @media only screen and (min-width: 768px) and (max-width: 1023px){
+		    	
+		    .title{
+				width:30% ;
+			
+				text-align: center;
+				
+			}
+			.title img{
+				width: 50%
+				padding:1%;	
+			}
+
+			.title1{
+				width: 70%;
+				padding left:15%;
+				
+			}
+			.title1{
+				text-align: center;
+			}
+			.information{
+			flex-direction:row;
+			
+			
+		    }
+		    .contact{
+		    	width:90%;	
+		    }
+		    .contact1{
+		    	width:90%;	
+		    }
+
+		    .manohar{
+		    	
+		    	text-align: center;
+		    	}
+		    .more{
+		    	width:100%;
+		    	align-items: center;
+		    }
+		    .more img{
+		    	width: 50%;
+		    	align-items: center;
+
+		    }
+		    .more{
+		    	width: 40%;
+		    }
+		}
